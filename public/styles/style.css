@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    width: 300px;
+}
+
+input {
+    border: 1px solid #eaecef;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    width: 70px
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: column;
+}
+
+.repos {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.repos img {
+    float: left;
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#listRepo {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#listRepo li {
+    clear: both;
+    margin-top: 10px;
+}
+
+strong {
+    margin-bottom: 10px;
+}
+
+li a {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0366d6;
+    text-decoration: none;
+}
